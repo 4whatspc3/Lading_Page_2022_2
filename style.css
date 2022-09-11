@@ -94,3 +94,21 @@ button.signup {
     color: grey;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 15px;
+    gap: 15px;
+}
+
+.quote.text {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote.author {
+    text-align: right;
+}
