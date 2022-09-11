@@ -112,3 +112,37 @@ button.signup {
 .quote.author {
     text-align: right;
 }
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.card.square {
+    display: flex;
+    background-color: #3882F6;
+}
+
+.container {
+    margin-right: 60px;
+}
+.card.title {
+    display: flex;
+    justify-content: left;
+    color: white;
+    font-weight: bold;
+}
+
+.card.subtext {
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#E5E7EB;
+}
