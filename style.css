@@ -1,5 +1,5 @@
 body {
-    /*background-color: #1F2937;*/
+    background-color: #1F2937;
     font-family: 'roboto', 'Sans-serif', 'Monospace';
     display: flex;
     flex-direction: column;
@@ -89,39 +89,44 @@ a {
 .info {
     display: flex;
     flex-direction: column;
-    margin: 15px 0px;
+    padding: 35px 0px;
     background-color: white;
 }
 
 .info_title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 36px;
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 45px;
     font-weight: bold;
     color:#1F2937;
 }
 
 .info_image {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
+    justify-content: center;
+    gap: 35px;
 }
 
 .info_square {
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .info_img {
-    background-color: grey;
+    /*background-color: grey;
+    align-items: center;
+    border: 5px solid blue;
+    border-radius: 7px;
+    width: auto;
+    height: auto;*/
 }
 
 .info_subtext {
-    color: grey;
+    text-align:center;
+    color: black;
+    padding-top: 5px;
 }
 
 .quote {
