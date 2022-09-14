@@ -114,15 +114,6 @@ a {
     max-height: 200px;
 }
 
-.info_img {
-    /*background-color: grey;
-    align-items: center;
-    border: 5px solid blue;
-    border-radius: 7px;
-    width: auto;
-    height: auto;*/
-}
-
 .info_subtext {
     text-align:center;
     color: black;
@@ -132,20 +123,28 @@ a {
 .quote {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #E5E7EB;
-    padding: 15px;
+    padding: 55px 15px;
     gap: 15px;
 }
 
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+
 .quote_text {
-    text-align: center;
-    font-size: 36px;
+    max-width: 800px;
+    font-size: 30px;
+    font-weight: 100;
     font-style: italic;
-    color: #1F2937;
+    color:#1F2937;
 }
 
 .quote_author {
-    text-align: right;
+   text-align:  right;
+   font-weight: bold;
 }
 
 .card {
