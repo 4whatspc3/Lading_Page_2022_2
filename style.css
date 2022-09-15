@@ -186,6 +186,7 @@ a {
     padding-right: 70px; 
    text-align:  right;
    font-weight: bold;
+   color: #1F2937;
 }
 
 .card {
@@ -198,16 +199,19 @@ a {
 
 .card_square {
     display: flex;
+    flex-wrap: wrap;
     padding: 30px 80px;
     border-radius: 8px;
-    background-color: #3882F6;
+    background-color: #437e70;
+    gap: 100px;
 }
 
 .container3 {
     display: flex;
     flex-direction: column;
-    margin-right: 80px;
+    gap: 10px;
 }
+
 .card_title {
     color: white;
     font-weight: bold;
@@ -218,7 +222,7 @@ a {
 }
 
 .card_signup {
-    background-color: #3882F6;
+    background-color: #437e70;
     color:#E5E7EB;
     font-weight: bold;
     font-size: 14px;
