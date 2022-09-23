@@ -7,46 +7,39 @@ body {
     min-height: 100vh;
 }
 
-header {
+.header {
     background-color: #1F2937;
-    color:#E5E7EB;
-    position: fixed;
-    width: 100%;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 350px;
 }
 
-.logo {
+.container0 {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+.logotipo {
     font-size: 24px;
     color: #437e70;
     font-weight: bold;
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 30px;
-}
-
-.logo img {
-    width: 30px;
-    height: auto;
 }
 
 ul {
+    display: flex;
     list-style-type: none;
     font-size: 16px;
-    font-weight: bold;
     padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 30px;
+    margin:0;
+    gap: 15px;
+    font-weight: bold;
 }
 
 a {
     text-decoration: none;
-    color:#437e70;
+    color: #437e70;
 }
 
 .main {
